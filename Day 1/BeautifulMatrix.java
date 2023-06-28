@@ -10,6 +10,7 @@ public class BeautifulMatrix {
                 if (matrix[i][j] == 1) {
                     row = i + 1;
                     col = j + 1;
+                    break;
                 }
             }
         }
